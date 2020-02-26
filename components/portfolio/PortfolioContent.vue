@@ -79,7 +79,7 @@ export default {
           link: '',
         },
                 { title: 'CMS開発支援(電力業界)',
-          imageurl: 'images/denki1.png',
+          imageurl: 'images/este.jpeg',
           description: '2017/05~2018/03\n運用保守/新規機能開発担当\nWIN/SAP ERP6.0',
           link: '',
         }
