@@ -61,7 +61,7 @@ export default {
   border-radius: 24px;
 
   .card-title {
-    background: #2196F3;
+    background: #29cc8d;
   }
 
   .skill-card__title {

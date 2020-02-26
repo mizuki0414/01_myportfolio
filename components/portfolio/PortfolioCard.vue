@@ -90,5 +90,7 @@ export default {
 }
 .btn {
   border-radius: 50px;
+  background-color: #24b37c !important;
+  text-align: center;
 }
 </style>

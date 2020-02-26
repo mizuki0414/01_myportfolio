@@ -5,12 +5,6 @@
     class="tool-bar"
     height=64
   >
-    <!-- <v-toolbar-title
-      class="tool-bar__logo"
-    >
-      {{siteLogo}}
-    </v-toolbar-title> -->
-    <!-- <v-spacer></v-spacer> -->
     <v-toolbar-items class="tool-bar__items" margin-right: auto; margin-left: auto>
       <v-layout row wrap align-center justify-center>
         <v-flex>
@@ -26,7 +20,7 @@
             flat
             v-scroll-to="'#skills'"
           >
-              Skills
+              Projects
           </v-btn>
         </v-flex>
         <v-flex>
@@ -34,7 +28,7 @@
             flat
             v-scroll-to="'#portfolio'"
           >
-              Portfolio
+              Skills
           </v-btn>
         </v-flex>
         <v-flex>
