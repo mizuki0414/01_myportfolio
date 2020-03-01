@@ -2,8 +2,8 @@
   <div>
     <the-parallax1 class="section"></the-parallax1>
     <about-section class="section"></about-section>
-    <portfolio-section class="section"></portfolio-section>
     <skill-section class="section"></skill-section>
+    <portfolio-section class="section"></portfolio-section>
     <contact-section class="section"></contact-section>
   </div>
 </template>

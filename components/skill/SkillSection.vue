@@ -5,18 +5,7 @@
   >
   </skill-title>
   <v-container>
-    <v-layout
-      align-center
-      justify-center
-    >
-      <v-flex
-        xs10
-        sm11
-        md12
-      >
         <skill-content></skill-content>
-      </v-flex>
-    </v-layout>
   </v-container>
 </div>
 </template>

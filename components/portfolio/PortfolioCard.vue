@@ -66,9 +66,9 @@ export default {
 
 <style lang="scss" scoped>
 .portfolio-card {
-  border-radius: 24px;
+  border-radius: 5px;
   .portfolio-card__image {
-    border-radius: 24px 24px 0 0;
+    border-radius: 5px 5px 0 0;
   }
   .portfolio-card__text {
     margin: 12px;
@@ -89,7 +89,7 @@ export default {
   }
 }
 .btn {
-  border-radius: 50px;
+  border-radius: 15px;
   background-color: #24b37c !important;
   text-align: center;
 }
