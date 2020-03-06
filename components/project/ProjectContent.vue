@@ -1,39 +1,26 @@
 <template>
-  <v-container
-    grid-list-xl
-  >
-    <v-layout
-      row
-      wrap
-      align-center
-      justify-center
-    >
-      <v-flex
-        v-for="(card, index) in cards"
-        v-bind:key="index"
-        xs10
-        sm5
-        md4
-      >
-        <portfolio-card
+  <v-container grid-list-xl>
+    <v-layout row wrap align-center justify-center>
+      <v-flex v-for="(card, index) in cards" v-bind:key="index" xs10 sm5 md4>
+        <project-card
           v-bind:title="card.title"
           v-bind:description="card.description"
           v-bind:imageurl="card.imageurl"
           v-bind:link="card.link"
         >
-        </portfolio-card>
+        </project-card>
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 
 <script>
-import PortfolioCard from './PortfolioCard.vue'
+import projectCard from './projectCard.vue'
 
 export default {
-  name: 'PortfolioContent',
+  name: 'projectContent',
   components: {
-    PortfolioCard
+    projectCard
   },
   data () {
     return {
@@ -80,7 +67,7 @@ export default {
         },
                 { title: 'リラクゼーションサイト開発',
           imageurl: 'images/este.jpeg',
-          description: '2017/05~2018/03\n[App開発] UI変更・SEO対策\nWIN/SAP ERP6.0',
+          description: '2017/05~2018/03\n[App開発] UI変更・SEO対策\nRubyonRailsを用いてリラクゼーションサイトデザイン改修を実施、SEO対策も考慮しレイアウト変更',
           link: '',
         }
       ]

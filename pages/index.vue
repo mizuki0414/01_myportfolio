@@ -1,24 +1,24 @@
 <template>
   <div>
-    <the-parallax1 class="section"></the-parallax1>
+    <top-section class="section"></top-section>
     <about-section class="section"></about-section>
     <skill-section class="section"></skill-section>
-    <portfolio-section class="section"></portfolio-section>
+    <project-section class="section"></project-section>
     <contact-section class="section"></contact-section>
   </div>
 </template>
 <script>
-import TheParallax1 from '~/components/TheParallax1.vue'
+import TopSection from '~/components/TopSection.vue'
 import AboutSection from '~/components/about/AboutSection.vue'
-import PortfolioSection from '~/components/portfolio/PortfolioSection.vue'
+import ProjectSection from '~/components/project/ProjectSection.vue'
 import SkillSection from '~/components/skill/SkillSection.vue'
 import ContactSection from '~/components/contact/ContactSection.vue'
 export default {
   name: 'TopPage',
   components: {
-    TheParallax1,
+    TopSection,
     AboutSection,
-    PortfolioSection,
+    ProjectSection,
     SkillSection,
     ContactSection
   }

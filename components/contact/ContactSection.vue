@@ -1,12 +1,12 @@
 <template>
   <div id="contact">
-    <v-parallax class="parallax" v-bind:src="imageurl" height="500">
+    <v-contactform class="contactform" v-bind:src="imageurl" height="500">
       <v-layout align-center column justify-center>
         <contact-title class="section-title">
         </contact-title>
         <contact-content></contact-content>
       </v-layout>
-    </v-parallax>
+    </v-contactform>
   </div>
 </template>
 

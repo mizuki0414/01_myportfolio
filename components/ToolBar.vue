@@ -8,12 +8,12 @@
           </v-btn>
         </v-flex>
         <v-flex>
-          <v-btn flat v-scroll-to="'#portfolio'">
+          <v-btn flat v-scroll-to="'#skills'">
               Skills
           </v-btn>
         </v-flex>
         <v-flex>
-          <v-btn flat v-scroll-to="'#skills'">
+          <v-btn flat v-scroll-to="'#project'">
               Projects
           </v-btn>
         </v-flex>

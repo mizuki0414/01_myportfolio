@@ -7,18 +7,18 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: 'Mizuki Onogawa Portfolio',
+    title: 'Mizuki Onogawa project',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { name: 'title', content: 'Mizuki Onogawa Portfolio' },
+      { name: 'title', content: 'Mizuki Onogawa project' },
       { name: 'description', content: '小野川 瑞季のWebエンジニアとしてのポートフォリオサイトです。' },
-      { name: 'og:url', content: 'https://shinadokebukawa.com/portfolio/' },
-      { name: 'og:title', content: 'Mizuki Onogawa Portfolio' },
+      { name: 'og:url', content: '' },
+      { name: 'og:title', content: 'Mizuki Onogawa project' },
       { name: 'og:description', content: '小野川 瑞季のWebエンジニアとしてのポートフォリオサイトです。' },
       { name: 'og:image', content: 'img/icon.jpg' },
-      { name: 'og:site_name', content: 'Mizuki Onogawa Portfolio' },
-      { name: 'twitter:site', content: 'Mizuki Onogawa Portfolio' },
+      { name: 'og:site_name', content: 'Mizuki Onogawa project' },
+      { name: 'twitter:site', content: 'Mizuki Onogawa project' },
       { name: 'og:locale', content: 'ja_JP' },
     ],
     link: [
@@ -41,12 +41,9 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [
-    'plugins/vue-parallax-js.js'
-  ],
 
   router: {
-    base: '/portfolio/'
+    base: '/project/'
   },
   
   /*

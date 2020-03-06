@@ -1,13 +1,6 @@
 <template>
   <div>
-    <v-img
-      :src="imageurl"
-      class="image"
-      alt="MizukiOnogawa"
-      aspect-ratio="1.5"
-      contain
-      max-width=480
-    >
+    <v-img :src="imageurl" class="image" alt="MizukiOnogawa" aspect-ratio="1.5" contain max-width=480>
     </v-img>
   </div>
 </template>

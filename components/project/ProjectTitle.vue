@@ -7,7 +7,7 @@
 <script>
 import BaseTitle from '../BaseTitle.vue'
 export default {
-  name: 'PortfolioTitle',
+  name: 'projectTitle',
   components: {
     BaseTitle
   },

@@ -1,4 +1,4 @@
-# portfolio-nuxt
+# project-nuxt
 
 > My prime Nuxt.js project
 

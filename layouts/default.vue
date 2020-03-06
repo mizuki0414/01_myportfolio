@@ -10,8 +10,6 @@
   </div>
 </template>
 
-
-
 <script>
 import ToolBar from '~/components/ToolBar.vue'
 import FooterBar from '~/components/FooterBar.vue'

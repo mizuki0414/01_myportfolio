@@ -1,16 +1,16 @@
 <template>
-<div class="parallax">
-  <v-parallax　id="top" class="parallax_img" :src="imageurl" height="600" jumbotron>
+<div class="topsection">
+  <v-topsection　id="top" class="top_img" :src="imageurl" height="600" jumbotron>
     <v-layout align-center column justify-center>
       <h2 class="display-3 font-weight-black text">{{siteTitle}}</h2>
       <h5 class="headline text">{{siteDescription}}</h5>
     </v-layout>
-  </v-parallax>
+  </v-topsection>
 </div>
 </template>
 <script>
 export default {
-  name: 'TheParallax1',
+  name: 'TopSection',
   data () {
     return {
       imageurl: 'images/background.jpg',
@@ -22,17 +22,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.parallax img{
+.topsection img{
   height: 100%;
   object-fit: cover;
 }
-// .parallax_img {
-//   padding: 0;
-//   height: 100vh;
-//   transform: none !important;
-//   width: 100vw !important;
-//   // width: 100%;
-// }
 .text {
   color: #fff;
 }

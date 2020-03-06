@@ -1,11 +1,11 @@
 <template>
-  <v-card tile class="portfolio-card">
-    <v-img v-bind:src="imageurl" aspect-ratio="1.5" class="portfolio-card__image">
+  <v-card tile class="project-card">
+    <v-img v-bind:src="imageurl" aspect-ratio="1.5" class="project-card__image">
     </v-img>
-    <v-card-title class="portfolio-card__text">
+    <v-card-title class="project-card__text">
       <div class="text-box">
         <v-layout align-start justify-start column>
-          <base-cardtitle v-bind:getting-title="title" class="portfolio-card__text-title">
+          <base-cardtitle v-bind:getting-title="title" class="project-card__text-title">
           </base-cardtitle>
           <base-description v-bind:getting-description="description" class="description">
           </base-description>
@@ -23,7 +23,7 @@ import BaseDescription from '../BaseDescription.vue'
 import BaseButton from '../BaseButton.vue'
 
 export default {
-  name: 'PortfolioCard',
+  name: 'projectCard',
   components: {
     BaseCardtitle,
     BaseDescription,
@@ -46,15 +46,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.portfolio-card {
+.project-card {
   border-radius: 5px;
-  .portfolio-card__image {
+  .project-card__image {
     border-radius: 5px 5px 0 0;
   }
-  .portfolio-card__text {
+  .project-card__text {
     margin: 12px;
 
-    .portfolio-card__text-title {
+    .project-card__text-title {
       margin-bottom: 8px;
     }
   }

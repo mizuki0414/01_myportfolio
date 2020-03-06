@@ -21,11 +21,11 @@ export default {
   name: 'ToolBar',
   data () {
     return {
-      siteLogo: 'Mizuki Onogawa Portfolio',
+      siteLogo: 'Mizuki Onogawa project',
       menus: [
         {title: 'About me', link: "'#about'"},
         {title: 'Skills' , link: "'#skills'"},
-        {title: 'Portfolio', link: "'#portfolio'"},
+        {title: 'project', link: "'#project'"},
         {title: 'Contact', link: "'#contact'"}
       ]
     }

@@ -11,7 +11,7 @@
         <v-btn flat v-scroll-to="'#about'">
             About me
         </v-btn>
-        <v-btn flat v-scroll-to="'#portfolio'">
+        <v-btn flat v-scroll-to="'#project'">
             Skills
         </v-btn>
         <v-btn flat v-scroll-to="'#skills'">
