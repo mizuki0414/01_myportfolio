@@ -1,8 +1,6 @@
 <template>
   <div id="about">
-    <about-title
-      class="section-title"
-    >
+    <about-title class="section-title">
     </about-title>
     <about-content></about-content>
   </div>

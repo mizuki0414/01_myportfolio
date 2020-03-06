@@ -1,34 +1,17 @@
 <template>
-  <v-toolbar
-    flat
-    color=white
-    class="tool-bar"
-    height=64
-  >
-    <v-toolbar-title
-      class="tool-bar__logo"
-    >
+  <v-toolbar flat color=white class="tool-bar" height=64>
+    <v-toolbar-title class="tool-bar__logo">
       {{siteLogo}}
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-toolbar-items
-      class="tool-bar__items"
-    >
-        <v-btn
-          v-for="(item, index) in menus"
-          :key="index"
-          flat
-        >
-          <div
-            v-scroll-to="item.link"
-          >
+    <v-toolbar-items class="tool-bar__items">
+        <v-btn v-for="(item, index) in menus" :key="index" flat>
+          <div v-scroll-to="item.link">
             {{item.title}}
           </div>
         </v-btn>
     </v-toolbar-items>
-    <v-toolbar-side-icon
-      class="tool-bar__icon"
-    >
+    <v-toolbar-side-icon class="tool-bar__icon">
       <i class="fas fa-bars"></i>
     </v-toolbar-side-icon>
   </v-toolbar>

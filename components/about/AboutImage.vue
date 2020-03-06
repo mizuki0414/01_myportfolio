@@ -3,7 +3,7 @@
     <v-img
       :src="imageurl"
       class="image"
-      alt="私の写真"
+      alt="MizukiOnogawa"
       aspect-ratio="1.5"
       contain
       max-width=480
@@ -16,7 +16,7 @@ export default {
   name: 'AboutImage',
   data () {
     return {
-      imageurl: 'images/mizuki.png'
+      imageurl: 'images/mizuki.jpg'
     }
   }
 }

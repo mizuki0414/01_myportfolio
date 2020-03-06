@@ -1,10 +1,5 @@
 <template>
-  <v-btn
-    color="blue"
-    round
-    dark
-    class="button"
-  >
+  <v-btn color="blue" round dark class="button">
     {{gettingButtonName}}
   </v-btn>
 </template>

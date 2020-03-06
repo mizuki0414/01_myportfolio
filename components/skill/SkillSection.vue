@@ -1,8 +1,6 @@
 <template>
 <div id="skills">
-  <skill-title
-    class="section-title"
-  >
+  <skill-title class="section-title">
   </skill-title>
   <v-container>
         <skill-content></skill-content>

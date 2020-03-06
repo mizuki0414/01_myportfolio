@@ -1,8 +1,6 @@
 <template>
   <div>
-    <base-description
-      v-bind:gettingDescription="description"
-    >
+    <base-description v-bind:gettingDescription="description">
     </base-description>
   </div>
 </template>

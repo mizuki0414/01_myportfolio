@@ -1,32 +1,13 @@
 <template>
-  <v-card
-    tile
-    class="portfolio-card"
-  >
-    <v-img
-      v-bind:src="imageurl"
-      aspect-ratio="1.5"
-      class="portfolio-card__image"
-    >
+  <v-card tile class="portfolio-card">
+    <v-img v-bind:src="imageurl" aspect-ratio="1.5" class="portfolio-card__image">
     </v-img>
-    <v-card-title
-      class="portfolio-card__text"
-    >
+    <v-card-title class="portfolio-card__text">
       <div class="text-box">
-        <v-layout
-          align-start
-          justify-start
-          column
-        >
-          <base-cardtitle
-            v-bind:getting-title="title"
-            class="portfolio-card__text-title"
-          >
+        <v-layout align-start justify-start column>
+          <base-cardtitle v-bind:getting-title="title" class="portfolio-card__text-title">
           </base-cardtitle>
-          <base-description
-            v-bind:getting-description="description"
-            class="description"
-          >
+          <base-description v-bind:getting-description="description" class="description">
           </base-description>
           <v-card-actions class="actions">
             <a :href="link" target="_brank"><v-btn color="info" class="btn">Detail</v-btn></a>

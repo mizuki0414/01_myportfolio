@@ -8,23 +8,17 @@
       justify-center
     >
       <v-toolbar-items class="menus">
-        <v-btn
-          flat
-          v-scroll-to="'#about'"
-        >
+        <v-btn flat v-scroll-to="'#about'">
             About me
         </v-btn>
-        <v-btn
-          flat
-          v-scroll-to="'#skills'"
-        >
+        <v-btn flat v-scroll-to="'#portfolio'">
             Skills
         </v-btn>
-        <v-btn
-          flat
-          v-scroll-to="'#portfolio'"
-        >
-            Portfolio
+        <v-btn flat v-scroll-to="'#skills'">
+            Projects
+        </v-btn>
+        <v-btn flat v-scroll-to="'#contact'">
+            Contact
         </v-btn>
       </v-toolbar-items>
     </v-layout>

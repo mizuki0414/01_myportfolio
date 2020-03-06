@@ -1,18 +1,8 @@
 <template>
   <div id="contact">
-    <v-parallax
-      class="parallax"
-      v-bind:src="imageurl"
-      height="500"
-    >
-      <v-layout
-        align-center
-        column
-        justify-center
-      >
-        <contact-title
-          class="section-title"
-        >
+    <v-parallax class="parallax" v-bind:src="imageurl" height="500">
+      <v-layout align-center column justify-center>
+        <contact-title class="section-title">
         </contact-title>
         <contact-content></contact-content>
       </v-layout>

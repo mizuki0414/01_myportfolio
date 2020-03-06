@@ -1,19 +1,7 @@
 <template>
 <div class="sns-box">
-  <v-flex
-    v-for="(icon, index) in icons"
-    v-bind:key="index"
-    class="sns"
-    xs2
-    sm2
-    md2
-  >
-    <a
-      v-bind:href="icon.link"
-      class="sns__link"
-      text-left
-      target="_brank"
-    >
+  <v-flex v-for="(icon, index) in icons" v-bind:key="index" class="sns" xs2 sm2 md2>
+    <a v-bind:href="icon.link" class="sns__link" text-left target="_brank">
       <i class="fab sns__icon" v-bind:class="icon.class"></i>
     </a>
   </v-flex>

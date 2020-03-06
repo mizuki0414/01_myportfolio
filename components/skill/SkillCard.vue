@@ -1,31 +1,15 @@
 <template>
-  <v-card
-    tile
-    class="skill-card"
-  >
-    <v-card-title
-      class="card-title"
-    >
-      <v-layout
-        align-center
-        justify-center
-      >
-        <base-cardtitle
-          class="skill-card__title"
-          v-bind:getting-title="skillTitle"
-        >
+  <v-card tile class="skill-card">
+    <v-card-title class="card-title">
+      <v-layout align-center justify-center>
+        <base-cardtitle class="skill-card__title" v-bind:getting-title="skillTitle">
         </base-cardtitle>
       </v-layout>
     </v-card-title>
     <v-divider></v-divider>
-    <skill-icons
-      v-bind:skill-icons="skillIcons"
-    >
+    <skill-icons v-bind:skill-icons="skillIcons">
     </skill-icons>
-    <v-list-tile
-      v-for="(item, index) in skillInfomation"
-      v-bind:key="index"
-    >
+    <v-list-tile v-for="(item, index) in skillInfomation" v-bind:key="index">
       <v-list-tile-content>{{item.name}}</v-list-tile-content>
       <v-list-tile-content class="align-end">{{item.year}}</v-list-tile-content>
     </v-list-tile>

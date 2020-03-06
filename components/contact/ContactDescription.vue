@@ -1,11 +1,6 @@
 <template>
-  <!-- <base-description
-    v-bind:gettingDescription="description"
-    class="text"
-  >
-  </base-description> -->
   <div class="description">
-    <p>Mailまたは Messenger にてお気軽にご連絡下さい。</p>
+    <p>{{ description }}</p>
   </div>
 </template>
 
@@ -18,7 +13,7 @@ export default {
   },
   data () {
     return {
-      description: 'メール、または Messenger にてお気軽にご連絡下さい。\nMessenger をクリックするか、メールアドレスに直接ご連絡下さい。'
+      description: 'お気軽にご連絡下さい!'
     }
   }
 }

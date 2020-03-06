@@ -1,41 +1,24 @@
 <template>
-  <v-toolbar
-    flat
-    color=white
-    class="tool-bar"
-    height=64
-  >
+  <v-toolbar flat color=white class="tool-bar" height=64>
     <v-toolbar-items class="tool-bar__items" margin-right: auto; margin-left: auto>
       <v-layout row wrap align-center justify-center>
         <v-flex>
-          <v-btn
-            flat
-            v-scroll-to="'#about'"
-          >
+          <v-btn flat v-scroll-to="'#about'">
               About me
           </v-btn>
         </v-flex>
         <v-flex>
-          <v-btn
-            flat
-            v-scroll-to="'#skills'"
-          >
-              Projects
-          </v-btn>
-        </v-flex>
-        <v-flex>
-          <v-btn
-            flat
-            v-scroll-to="'#portfolio'"
-          >
+          <v-btn flat v-scroll-to="'#portfolio'">
               Skills
           </v-btn>
         </v-flex>
         <v-flex>
-          <v-btn
-            flat
-            v-scroll-to="'#contact'"
-          >
+          <v-btn flat v-scroll-to="'#skills'">
+              Projects
+          </v-btn>
+        </v-flex>
+        <v-flex>
+          <v-btn flat v-scroll-to="'#contact'">
               Contact
           </v-btn>
         </v-flex>

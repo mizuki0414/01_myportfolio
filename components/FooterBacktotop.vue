@@ -1,10 +1,6 @@
 <template>
   <div>
-    <a
-      href="#"
-      v-scroll-to="'#top'"
-      class="to-top"
-    >
+    <a href="#" v-scroll-to="'#top'" class="to-top">
       <i class="fas fa-arrow-up fa-border back-to-top"></i>
     </a>
   </div>

@@ -9,7 +9,7 @@
         align-center
         justify-center
       >
-        <div>&copy; {{ new Date().getFullYear() }} Mizuki Onogawa</div>
+        <div>&copy; Mizuki Onogawa</div>
       </v-layout>
     </v-footer>
   </div>

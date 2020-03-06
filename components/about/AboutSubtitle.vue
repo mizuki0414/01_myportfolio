@@ -1,8 +1,6 @@
 <template>
   <div>
-    <base-subtitle
-      v-bind:gettingSubtitle="subtitle"
-    >
+    <base-subtitle v-bind:gettingSubtitle="subtitle">
     </base-subtitle>
   </div>
 </template>

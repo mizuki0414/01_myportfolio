@@ -2,7 +2,7 @@
   <v-layout>
     <v-flex>
       <a
-        href="https://www.facebook.com/profile.php?id=100009639289112"
+        href="https://www.messenger.com/t/mizuki.onogawa"
         class="contact messanger"
         target=”_blank”
       >
@@ -11,14 +11,8 @@
         <span>Messanger</span>
       </a>
     </v-flex>
-    <v-flex>
-      <i class="fas fa-envelope contact__icon"></i>
-      <br>
-      <span>shinado1129@gmail.com</span>
-    </v-flex>
   </v-layout>
-</template>
-
+</template>]
 <script>
 export default {
   name: 'ContactToolicon'

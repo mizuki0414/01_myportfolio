@@ -1,7 +1,5 @@
 <template>
-  <base-title
-    v-bind:gettingTitle="title"
-  >
+  <base-title v-bind:gettingTitle="title">
   </base-title>
 </template>
 <script>
