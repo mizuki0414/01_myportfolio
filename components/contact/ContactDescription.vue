@@ -1,5 +1,5 @@
 <template>
-  <div class="description">
+  <div class="description" style="color: white;">
     <p>{{ description }}</p>
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
   },
   data () {
     return {
-      description: 'お気軽にご連絡下さい!'
+      description: 'FBからお気軽にご連絡下さい!'
     }
   }
 }

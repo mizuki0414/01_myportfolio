@@ -10,9 +10,9 @@
         <v-flex xs10 sm8 md6>
           <v-item>
             <div>
-              <about-subtitle class="my-name">
-              </about-subtitle>
-              <about-description></about-description>
+                <about-subtitle class="my-name">
+                </about-subtitle>
+                  <about-description></about-description>
                 <base-sns></base-sns>
             </div>
           </v-item>

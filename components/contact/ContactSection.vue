@@ -1,11 +1,13 @@
 <template>
   <div id="contact">
     <v-contactform class="contactform" v-bind:src="imageurl" height="500">
+    <v-img :src="imageurl" class="image" alt="MizukiOnogawa" aspect-ratio="1.0" height="300">
       <v-layout align-center column justify-center>
-        <contact-title class="section-title">
+        <contact-title class="section-title" style="color: white; margin-top: 50px;">
         </contact-title>
         <contact-content></contact-content>
       </v-layout>
+    </v-img>
     </v-contactform>
   </div>
 </template>

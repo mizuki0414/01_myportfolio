@@ -12,7 +12,7 @@
       </a>
     </v-flex>
   </v-layout>
-</template>]
+</template>
 <script>
 export default {
   name: 'ContactToolicon'
