@@ -5,7 +5,9 @@
       <v-layout align-center column justify-center>
         <div id="toptext" style="margin-top: 100px">
           <h2 class="display-3 font-weight-black text">{{siteTitle}}</h2>
-          <h5 class="headline text">{{siteDescription}}</h5>
+          <transition>
+          <h5 class="headline text" v-if="show">{{siteDescription}}</h5>
+          </transition>
         </div>
       </v-layout>
     </v-img>
@@ -19,7 +21,8 @@ export default {
     return {
       imageurl: 'images/background.jpg',
       siteTitle: 'Mizuki Onogawa',
-      siteDescription: '- works introduction -'
+      siteDescription: '- works introduction -',
+      show: false
     }
   }
 }
@@ -32,5 +35,11 @@ export default {
 }
 .text {
   color: #fff;
+}
+.v-enter-active, .v-leave-active {
+  transition: opacity 2s;
+}
+.v-enter, .v-leave {
+  opacity: 0;
 }
 </style>

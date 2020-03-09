@@ -23,10 +23,10 @@ export default {
     return {
       siteLogo: 'Mizuki Onogawa project',
       menus: [
-        {title: 'About me', link: "'#about'"},
-        {title: 'Skills' , link: "'#skills'"},
         {title: 'project', link: "'#project'"},
-        {title: 'Contact', link: "'#contact'"}
+        {title: 'Skills' , link: "'#skills'"},
+        {title: 'Contact', link: "'#contact'"},
+        {title: 'About me', link: "'#about'"}
       ]
     }
   }

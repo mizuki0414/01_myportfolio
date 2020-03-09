@@ -3,8 +3,8 @@
     <v-toolbar-items class="tool-bar__items" margin-right: auto; margin-left: auto>
       <v-layout row wrap align-center justify-center>
         <v-flex>
-          <v-btn flat v-scroll-to="'#about'">
-              About me
+          <v-btn flat v-scroll-to="'#project'">
+              Projects
           </v-btn>
         </v-flex>
         <v-flex>
@@ -13,13 +13,13 @@
           </v-btn>
         </v-flex>
         <v-flex>
-          <v-btn flat v-scroll-to="'#project'">
-              Projects
+          <v-btn flat v-scroll-to="'#contact'">
+              Contact
           </v-btn>
         </v-flex>
         <v-flex>
-          <v-btn flat v-scroll-to="'#contact'">
-              Contact
+          <v-btn flat v-scroll-to="'#about'">
+              About me
           </v-btn>
         </v-flex>
       </v-layout>

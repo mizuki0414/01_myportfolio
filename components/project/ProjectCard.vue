@@ -9,12 +9,12 @@
           </base-cardtitle>
           <base-description v-bind:getting-description="description" class="description">
           </base-description>
-          <v-card-actions class="actions">
-            <a :href="link" target="_brank"><v-btn color="info" class="btn">Detail</v-btn></a>
-          </v-card-actions>
         </v-layout>
       </div>
     </v-card-title>
+    <v-card-actions class="actions" style="text-align:center;">
+    <a :href="link" target="_brank"><v-btn color="info" class="btn">Detail</v-btn></a>
+    </v-card-actions>
   </v-card>
 </template>
 <script>
@@ -66,6 +66,7 @@ export default {
 
   }
   a {
+    margin: 0 auto;
     text-decoration: none;
   }
 }

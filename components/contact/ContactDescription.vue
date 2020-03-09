@@ -13,7 +13,7 @@ export default {
   },
   data () {
     return {
-      description: 'FBからお気軽にご連絡下さい!'
+      description: 'FBよりお気軽にご連絡ください'
     }
   }
 }
