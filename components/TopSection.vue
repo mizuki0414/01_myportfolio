@@ -22,10 +22,13 @@ export default {
       imageurl: 'images/background.jpg',
       siteTitle: 'Mizuki Onogawa',
       siteDescription: '- works introduction -',
-      show: false
+      show: true
     }
   }
 }
+
+
+
 </script>
 
 <style lang="scss" scoped>

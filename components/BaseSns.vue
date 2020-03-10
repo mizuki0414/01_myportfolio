@@ -14,11 +14,10 @@ export default {
   data () {
     return {
       icons: [
-        {class: 'fa-linkedin-in', link: 'https://www.linkedin.com/in/%E9%A2%A8-%E6%AF%9B%E9%83%A8%E5%B7%9D-754951185/'},
-        {class: 'fa-instagram', link: 'https://www.instagram.com/shinado1998/?hl=ja'},
-        {class: 'fa-facebook', link: 'https://www.facebook.com/profile.php?id=100009639289112'},
-        {class: 'fa-twitter', link: 'https://twitter.com/shinadokebukawa'},
-        {class: 'fa-github', link: 'https://github.com/kev1129'}
+        {class: 'fa-linkedin-in', link: 'https://www.linkedin.com/in/%E7%91%9E%E5%AD%A3-%E5%B0%8F%E9%87%8E%E5%B7%9D-407aa1113/'},
+        {class: 'fa-instagram', link: 'https://www.instagram.com/mizukii0414/?hl=ja'},
+        {class: 'fa-facebook', link: 'https://www.facebook.com/mizuki.onogawa'},
+        {class: 'fa-github', link: 'https://github.com/mizuki0414'}
       ]
     }
   }

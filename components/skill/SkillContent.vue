@@ -1,19 +1,24 @@
 <template>
   <v-container>
     <h2> - 概要</h2>
-    <p>アプリ開発担当・インフラ担当・コンサルタントとして業務を経験致しました。 開発案件からコンサルティングジョブまで幅広く入ったことがあります。 インフラ・セキュリティ周りが好きでありDevSec/Opsを実現したいです。</p>
+    <p>アプリ開発担当・インフラ担当・コンサルタントとして業務を経験致しました。 開発案件からコンサルティングジョブまで幅広く入ったことがあります。 事業を加速させるようなインフラの構築・セキュリティ対策を目標としておりDevSec/Opsを実現したいです。</p>
     <h2> - 言語</h2>
     <p>Java | Ruby | JavaScript | Python</p>
     <h2> - フレームワーク</h2>
-    <p>Ruby on Rails</p>
+    <p>Ruby on Rails | Vue | Nuxt</p>
     <h2> - DB</h2>
-    <p>MySQL | MongoDB</p>
+    <p>MySQL | SQLServer | MongoDB</p>
     <h2> - クラウドサービス</h2>
-    <p>VPC | S3 | ELB | EC2 | ECS | ECR | IAM | AWS Glue | Cloud Watch</p>
+    <h4> - AWS </h4>
+    <p>VPC | S3 | ELB | EC2 | ECS | ECR | IAM | AWS Glue | Cloud Watch | VPC | AWSWAF | SG | IAM | Lambda | CloudFront</p>
+    <h4> - GCP </h4>
+    <p>GAS | CloudVision | BQ</p>
     <h2> - SaaS</h2>
     <p>GitHub | Grafana | Prometheus</p>
+    <h2> - 資格</h2>
+    <p>SAP認定コンサルタント(SD)</p>
     <h2> - その他</h2>
-    <p>Docker | Powershell | Shell</p>
+    <p>SAP | Docker | Powershell | Shell</p>
     <h2> - チャレンジしたい案件</h2>
     <p></p>
     <h4> 1 インフラ構築支援</h4>
