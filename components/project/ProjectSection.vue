@@ -7,8 +7,8 @@
 </template>
 
 <script>
-import projectTitle from './projectTitle.vue'
-import projectContent from './projectContent.vue'
+import projectTitle from './ProjectTitle.vue'
+import projectContent from './ProjectContent.vue'
 export default {
   name: 'projectSection',
   components: {

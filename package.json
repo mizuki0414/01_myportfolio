@@ -17,6 +17,7 @@
     "nuxt": "^2.4.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "stylus-loader": "^3.0.2",
     "vue-scrollto": "^2.15.0",
     "vuescroll": "^4.12.2"
   },

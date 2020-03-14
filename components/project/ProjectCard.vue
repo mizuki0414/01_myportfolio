@@ -13,7 +13,16 @@
       </div>
     </v-card-title>
     <v-card-actions class="actions" style="text-align:center;">
-    <a :href="link" target="_brank"><v-btn color="info" class="btn">Detail</v-btn></a>
+    <a target="_brank">
+      <v-btn color="info" class="btn" @click="openModal">Detail</v-btn>
+    </a>
+      <MyModal @close="closeModal" v-if="modal">
+        <p>Vue.js Modal Window!</p>
+        <div><input v-model="message"></div>
+        <template slot="footer">
+          <button @click="closeBtn">close</button>
+        </template>
+      </MyModal>
     </v-card-actions>
   </v-card>
 </template>
@@ -21,13 +30,15 @@
 import BaseCardtitle from '../BaseCardtitle.vue'
 import BaseDescription from '../BaseDescription.vue'
 import BaseButton from '../BaseButton.vue'
+import MyModal from './MyModal.vue'
 
 export default {
-  name: 'projectCard',
+  name: 'ProjectCard',
   components: {
     BaseCardtitle,
     BaseDescription,
-    BaseButton
+    BaseButton,
+    MyModal
   },
   props: {
     title: String,
@@ -39,8 +50,21 @@ export default {
   data () {
     return {
       buttonGithub: 'github',
-      buttonLink: 'jump'
+      buttonLink: 'jump',
+      modal: false,
+      message: ''
     }
+  },
+  methods:{
+  openModal() {
+        this.modal = true
+      },
+      closeModal() {
+        this.modal = false
+      },
+      closeBtn() {
+        this.modal = false
+      }
   }
 }
 </script>
@@ -75,4 +99,29 @@ export default {
   background-color: #24b37c !important;
   text-align: center;
 }
+.overlay{
+  /*　要素を重ねた時の順番　*/
+  z-index:1;
+
+  /*　画面全体を覆う設定　*/
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.5);
+
+  /*　画面の中央に要素を表示させる設定　*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.content{
+  z-index:2;
+  width:50%;
+  padding: 1em;
+  background:#fff;
+}
+
 </style>
