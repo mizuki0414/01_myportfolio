@@ -1,8 +1,5 @@
 <template>
-  <base-title
-    v-bind:gettingTitle="title"
-  >
-  </base-title>
+  <base-title v-bind:gettingTitle="title"></base-title>
 </template>
 <script>
 import BaseTitle from '../BaseTitle.vue'

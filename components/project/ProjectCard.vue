@@ -17,8 +17,7 @@
         <v-btn color="info" class="btn" @click="openModal">Detail</v-btn>
       </a>
       <MyModal @close="closeModal" v-if="modal">
-        <input type="text" v-model="subdescription">
-        <div><input v-model="message"></div>
+        <p v-html="subdescription"></p>
         <template slot="footer">
           <button @click="closeBtn">close</button>
         </template>

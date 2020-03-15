@@ -36,41 +36,49 @@ export default {
           imageurl: 'images/wc.png',
           description: '2018/08~2018/11\n[Security業務] 脆弱性分析・WAF導入\nサイトの脆弱性分析・有害アクセスのブロックを実施',
           link: '',
+          subdescription: ''
         },
         { title: 'Infra改善支援',
           imageurl: 'images/wc.png',
           description: '2018/08~2018/11\n[Infra業務] Dockerize・監視基盤構築\nアプリケーションの自動デプロイ・監視基盤の構築を実施',
           link: '',
+          subdescription: ''
         },
         { title: 'PMO支援(自動車業界)',
           imageurl: 'images/car.jpg',
           description: '2018/08~2018/11\n[Cons業務] セキュリティPMO・仕様策定\nECU(車載部品)のSWアップデート機能実装へ向けたPMO・仕様策定実施',
           link: '',
+          subdescription: ''
         },
         { title: 'Cloud移行支援(素材業界)',
           imageurl: 'images/glass.jpg',
           description: '2018/08~2018/11\n[Infra業務] オンプレ-Cloud環境移行\n業務システムのオンプレ環境からAWSへの移行・構築支援を実施',
           link: '',
+          subdescription: '国内大手素材メーカ様、全業務システム基盤移行支援<br>(オンプレミス環境⇒Cloud環境[AWS]) <br>【職務概要】<br>AWS環境のサーバ/ネットワーク環境構築、SAPアプリケーションのバージョンアップから運用作業の自動化をインフラメンバとして実施した。<br>【実績・業務成果】<br>■成果<br>オンプレミス環境からAWSへの移行によって運用コスト削減。SAPのアップグレードと合わせて、処理性能の向上を実現した。<br>■プロジェクトを通して難点だった点<br>AWSへの移行に伴い、ジョブ・ミドルウェアとの連携部分が想定していた以上に改修範囲が広く、一時的に運用作業が増大し、プロジェクトコストが増大した点。<br>■解決方法<br>PowerShellスクリプトを用いて運用作業を自動化した。また、オフショア開発メンバを育成し、定常作業を移管した。<br>■解決方法を採用した結果<br>自動化作業によりシステム基盤移行後の運用工数を今までより、月50H程削減した。また作業単価の低いオフショアメンバへの業務移管により、<br>安価なコストで定常業務のPDCAを回せるように実現した。<br>'
         },
         { title: 'Miningマシン販促支援',
           imageurl: 'images/miningtokyo.jpg',
           description: '2018/08~2018/11\n[App開発] 製品販促サイト開発\nWordPressを用いて、Miningマシンの販促サイトを作成',
           link: '',
+          subdescription: ''
         },
         { title: 'CMS開発支援2(電力業界)',
           imageurl: 'images/denki2.jpg',
           description: '2017/05~2018/03\n[App開発] 電力小売事業者CMS開発\n電力自由化に伴う、顧客契約情報の編集作業自動化実施',
           link: '',
+          subdescription: ''
         },
-                { title: 'CMS開発支援1(電力業界)',
+        { title: 'CMS開発支援1(電力業界)',
           imageurl: 'images/denki1.png',
           description: '2017/05~2018/03\n[App開発] 電力小売事業者CMS開発\n電力自由化に伴う、電気料金計算自動化システムの作成(オフショア開発)',
           link: '',
+          subdescription: ''
         },
-                { title: 'リラクゼーションサイト開発',
+        { title: 'リラクゼーションサイト開発',
           imageurl: 'images/este.jpeg',
           description: '2017/05~2018/03\n[App開発] UI変更・SEO対策\nRubyonRailsを用いてリラクゼーションサイトデザイン改修を実施、SEO対策も考慮しレイアウト変更',
           link: '',
+          subdescription: ''
         }
       ]
     }
