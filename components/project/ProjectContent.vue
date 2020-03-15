@@ -7,6 +7,7 @@
           v-bind:description="card.description"
           v-bind:imageurl="card.imageurl"
           v-bind:link="card.link"
+          v-bind:subdescription="card.subdescription"
         >
         </project-card>
       </v-flex>
@@ -15,7 +16,7 @@
 </template>
 
 <script>
-import projectCard from './projectCard.vue'
+import projectCard from './ProjectCard.vue'
 
 export default {
   name: 'projectContent',
@@ -29,6 +30,7 @@ export default {
           imageurl: 'images/thissite.png',
           description: '2020/03\n[App開発] 自主制作・当サイト作成\nNuxt.jsを用いたポートフォリオサイトを構築、デプロイの自動化も実施',
           link: '',
+          subdescription: 'Subdescription'
         },
         { title: 'Security対策支援',
           imageurl: 'images/wc.png',

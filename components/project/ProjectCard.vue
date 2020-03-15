@@ -13,11 +13,11 @@
       </div>
     </v-card-title>
     <v-card-actions class="actions" style="text-align:center;">
-    <a target="_brank">
-      <v-btn color="info" class="btn" @click="openModal">Detail</v-btn>
-    </a>
+      <a target="_brank">
+        <v-btn color="info" class="btn" @click="openModal">Detail</v-btn>
+      </a>
       <MyModal @close="closeModal" v-if="modal">
-        <p>Vue.js Modal Window!</p>
+        <input type="text" v-model="subdescription">
         <div><input v-model="message"></div>
         <template slot="footer">
           <button @click="closeBtn">close</button>
@@ -38,11 +38,12 @@ export default {
     BaseCardtitle,
     BaseDescription,
     BaseButton,
-    MyModal
+    MyModal,
   },
   props: {
     title: String,
     description: String,
+    subdescription: String,
     link: String,
     linkGit: String,
     imageurl: String
