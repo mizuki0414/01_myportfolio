@@ -45,14 +45,10 @@ export default {
     display: none;
     }
 }
-.v-toolbar__content > *:first-child, .v-toolbar__extension > *:first-child{
+.v-toolbar__content > :first-child, .v-toolbar__extension > :first-child{
   margin-left: auto;
 }
-.v-toolbar__content > *:last-child, .v-toolbar__extension > *:last-child{
+.v-toolbar__content > :last-child, .v-toolbar__extension > :last-child{
   margin-right: auto;
-}
-.v-toolbar__content, .v-toolbar__extension {
-    align-items: center;
-    display: flex;
 }
 </style>
