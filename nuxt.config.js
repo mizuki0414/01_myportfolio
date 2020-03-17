@@ -42,9 +42,9 @@ export default {
   ** Plugins to load before mounting the App
   */
 
-  router: {
-    base: '/project/'
-  },
+  // router: {
+  //   base: '/project/'
+  // },
   
   /*
   ** Nuxt.js modules
