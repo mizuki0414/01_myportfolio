@@ -51,4 +51,8 @@ export default {
 .v-toolbar__content > *:last-child, .v-toolbar__extension > *:last-child{
   margin-right: auto;
 }
+.v-toolbar__content, .v-toolbar__extension {
+    align-items: center;
+    display: flex;
+}
 </style>
