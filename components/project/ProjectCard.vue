@@ -12,12 +12,12 @@
         </v-layout>
       </div>
     </v-card-title>
-    <v-card-actions class="actions" style="text-align:center;">
+    <v-card-actions class="actions" style="text-align:left;">
       <a target="_brank">
         <v-btn color="info" class="btn" @click="openModal">Detail</v-btn>
       </a>
       <MyModal @close="closeModal" v-if="modal">
-        <p v-html="subdescription"></p>
+        <p v-html="subdescription" style="margin-bottom: 8px;"></p>
         <template slot="footer">
           <button @click="closeBtn">close</button>
         </template>
