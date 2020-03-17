@@ -45,10 +45,10 @@ export default {
     display: none;
     }
 }
-.v-toolbar__content > :first-child, .v-toolbar__extension > :first-child{
-  margin-left: auto;
+.v-toolbar__content>:last-child, .v-toolbar__extension>:last-child {
+    margin-right: auto;
 }
-.v-toolbar__content > :last-child, .v-toolbar__extension > :last-child{
-  margin-right: auto;
+.v-toolbar__content>:first-child, .v-toolbar__extension>:first-child {
+    margin-left: auto;
 }
 </style>
