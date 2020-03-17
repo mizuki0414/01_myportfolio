@@ -1,6 +1,6 @@
 <template>
   <v-toolbar flat color=white class="tool-bar" height=64>
-    <v-toolbar-items class="tool-bar__items" margin-right: auto; margin-left: auto>
+    <v-toolbar-items class="tool-bar__items" style="margin-right: auto; margin-left: auto;">
       <v-layout row wrap align-center justify-center>
         <v-flex>
           <v-btn flat v-scroll-to="'#project'">
