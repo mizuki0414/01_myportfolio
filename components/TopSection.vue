@@ -45,4 +45,7 @@ export default {
 .v-enter, .v-leave {
   opacity: 0;
 }
+.display-3 {
+    font-size: 50px !important;
+}
 </style>

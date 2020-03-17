@@ -10,15 +10,15 @@
     <p>MySQL | SQLServer | MongoDB</p>
     <h2> - クラウドサービス</h2>
     <h4> - AWS </h4>
-    <p>VPC | S3 | ELB | EC2 | ECS | ECR | IAM | AWS Glue | Cloud Watch | VPC | AWSWAF | SG | IAM | Lambda | CloudFront</p>
+    <p>VPC | S3 | ELB | EC2 | ECS | ECR | IAM | AWS Glue | Cloud Watch | VPC | AWSWAF | SG | IAM | Lambda | CloudFront | 他多数</p>
     <h4> - GCP </h4>
     <p>GAS | CloudVision | BQ</p>
     <h2> - SaaS</h2>
-    <p>GitHub | Grafana | Prometheus</p>
+    <p>GitHub | Gitlab | Grafana | Prometheus | Datadog</p>
     <h2> - 資格</h2>
     <p>SAP認定コンサルタント(SD)</p>
     <h2> - その他</h2>
-    <p>SAP | Docker | Powershell | Shell</p>
+    <p>SAP | Docker | Powershell | Shell | GitlabCI | CircleCI</p>
     <h2> - チャレンジしたい案件</h2>
     <p></p>
     <h4> 1 インフラ構築支援</h4>
