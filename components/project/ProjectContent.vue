@@ -30,11 +30,11 @@ export default {
           imageurl: 'images/thissite.png',
           description: '2020/02~2020/03\n[App開発] 自主制作・当サイト作成\nNuxt.jsを用いたポートフォリオサイトを構築、デプロイの自動化実施',
           link: '',
-          subdescription: 'Coming Soon'
+          subdescription: '<h4>自主開発によるPortfolioSite作成</h4><h4>【使用した技術スタック】</h4><p style="margin-bottom: 2px; font-size: 10px;">Nuxt.js/Vue/Netlify</p><h4>【概要】</h4><p style="margin-bottom: 2px; font-size: 10px;">これ迄関わってきた複数のプロジェクトの棚卸し、Nuxtのキャッチアップもかねて作成</p><p style="margin-bottom: 2px; font-size: 10px;">修士在学中より述べ8プロジェクトに参画しアプリ開発~コンサルティング案件を経験</p>'
         },
         { title: 'Infra改善支援',
           imageurl: 'images/wc.png',
-          description: '2019/10~\n[Infra業務] Dockerize・監視基盤構築\nアプリケーションの自動デプロイ・監視基盤の構築を実施',
+          description: '2019/10~Now\n[Infra業務] Dockerize・監視基盤構築\nアプリケーションの自動デプロイ・監視基盤の構築を実施',
           link: '',
           subdescription: 'Coming Soon'
         },
