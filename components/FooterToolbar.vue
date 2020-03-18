@@ -8,17 +8,17 @@
       justify-center
     >
       <v-toolbar-items class="menus">
-        <v-btn flat v-scroll-to="'#about'">
-            About me
+        <v-btn flat v-scroll-to="'#skills'">
+            Projects
         </v-btn>
         <v-btn flat v-scroll-to="'#project'">
             Skills
         </v-btn>
-        <v-btn flat v-scroll-to="'#skills'">
-            Projects
-        </v-btn>
         <v-btn flat v-scroll-to="'#contact'">
             Contact
+        </v-btn>
+        <v-btn flat v-scroll-to="'#about'">
+            About me
         </v-btn>
       </v-toolbar-items>
     </v-layout>
@@ -32,7 +32,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .menus {
-//   margin: auto;
-// }
+.menus {
+  margin: auto;
+}
 </style>
