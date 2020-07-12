@@ -1,6 +1,6 @@
 # project-nuxt
 
-> My prime Nuxt.js project
+> Mizuki Onogawa Protfolio
 
 ## Build Setup
 
