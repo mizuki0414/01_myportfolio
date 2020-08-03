@@ -1,6 +1,7 @@
 # project-nuxt
 
 > Mizuki Onogawa Protfolio
+https://mizuki0414.netlify.app/
 
 ## Build Setup
 
