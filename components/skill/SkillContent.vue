@@ -44,6 +44,10 @@
     <h4> 新規サービス開発</h4>
     <p></p>
     <p>・ 設計/開発/テスト/運用全て</p>
+    <h2> - 受賞歴</h2>
+    <p>・ G's ACADEMY TOKYO Hackathon 優勝</p>
+    <p>・ G's ACADEMY TOKYO- FUKUOKA 合同Hackathon 準優勝</p>
+    <p>・ G's ACADEMY TOKYO Hackathon(チーム開発) 優勝</p>
   </v-container>
 </template>
 
