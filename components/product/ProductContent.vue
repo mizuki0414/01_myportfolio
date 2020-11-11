@@ -2,32 +2,32 @@
   <v-container grid-list-xl>
     <v-layout row wrap align-center justify-center>
       <v-flex v-for="(card, index) in cards" v-bind:key="index" xs10 sm5 md4>
-        <project-card
+        <product-card
           v-bind:title="card.title"
           v-bind:description="card.description"
           v-bind:imageurl="card.imageurl"
           v-bind:link="card.link"
           v-bind:subdescription="card.subdescription"
         >
-        </project-card>
+        </product-card>
       </v-flex>
     </v-layout>
   </v-container>
 </template>
 
 <script>
-import projectCard from './ProjectCard.vue'
+import productCard from './ProductCard.vue'
 
 export default {
-  name: 'projectContent',
+  name: 'productContent',
   components: {
-    projectCard
+    productCard
   },
   data () {
     return {
       cards: [
         { title: '#9 PortfolioSite作成',
-          imageurl: 'images/thissite.png',
+          imageurl: 'https://player.vimeo.com/video/448971918',
           description: '期間:2020/02~2020/03\n[App開発] 自主制作・当サイト作成\nNuxt.jsを用いたポートフォリオサイトを構築、デプロイの自動化実施',
           link: '',
           subdescription: '<h4>自主開発によるPortfolioSite作成</h4><h4>【使用した技術スタック】</h4><p style="margin-bottom: 2px; font-size: 10px;">Nuxt.js/Vue/Netlify</p><h4>【概要】</h4><p style="margin-bottom: 2px; font-size: 10px;">これ迄関わってきた複数のプロジェクトの棚卸し、Nuxtのキャッチアップもかねて作成</p><p style="margin-bottom: 2px; font-size: 10px;">修士在学中より述べ8プロジェクトに参画しアプリ開発~コンサルティング案件を経験</p>'

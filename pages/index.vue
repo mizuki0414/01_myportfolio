@@ -1,6 +1,7 @@
 <template>
   <div>
     <top-section class="section"></top-section>
+    <product-section class="section"></product-section>
     <project-section class="section"></project-section>
     <skill-section class="section"></skill-section>
     <contact-section class="section"></contact-section>
@@ -9,6 +10,7 @@
 </template>
 <script>
 import TopSection from '~/components/TopSection.vue'
+import ProductSection from '~/components/product/ProductSection.vue'
 import ProjectSection from '~/components/project/ProjectSection.vue'
 import SkillSection from '~/components/skill/SkillSection.vue'
 import ContactSection from '~/components/contact/ContactSection.vue'
@@ -17,6 +19,7 @@ export default {
   name: 'TopPage',
   components: {
     TopSection,
+    ProductSection,
     ProjectSection,
     SkillSection,
     ContactSection,

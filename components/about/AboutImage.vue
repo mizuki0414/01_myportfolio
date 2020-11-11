@@ -9,7 +9,7 @@ export default {
   name: 'AboutImage',
   data () {
     return {
-      imageurl: 'images/mizuki.jpg'
+      imageurl: 'images/mizuki2.jpg'
     }
   }
 }
