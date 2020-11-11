@@ -1,6 +1,6 @@
 <template>
   <v-card tile class="product-card">
-    <iframe v-bind:src="imageurl" width="100%" height="100%" frameborder="0" class="product-card__image">
+    <iframe v-bind:src="imageurl" width="100%" height="" frameborder="0" class="product-card__image" allow="autoplay; fullscreen" allowfullscreen>
     </iframe>
     <v-card-title class="product-card__text">
       <div class="text-box">
@@ -12,17 +12,6 @@
         </v-layout>
       </div>
     </v-card-title>
-    <v-card-actions class="actions" style="text-align:left;">
-      <a target="_brank">
-        <v-btn color="info" class="btn" @click="openModal">Detail</v-btn>
-      </a>
-      <MyModal @close="closeModal" v-if="modal">
-        <p v-html="subdescription"></p>
-        <template slot="footer">
-          <button @click="closeBtn">close</button>
-        </template>
-      </MyModal>
-    </v-card-actions>
   </v-card>
 </template>
 <script>

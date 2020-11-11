@@ -26,14 +26,14 @@ export default {
   data () {
     return {
       cards: [
-        { title: '#9 PortfolioSite作成',
-          imageurl: 'images/thissite.png',
-          description: '期間:2020/02~2020/03\n[App開発] 自主制作・当サイト作成\nNuxt.jsを用いたポートフォリオサイトを構築、デプロイの自動化実施',
+        { title: "#9 G'S ACADEMY TOKYO",
+          imageurl: 'images/og.png',
+          description: '期間:2020/04~2020/11\n[Protyping] フルタイム総合LABコース\nプロダクトデモ、アントレプレナーシップについて学習',
           link: '',
-          subdescription: '<h4>自主開発によるPortfolioSite作成</h4><h4>【使用した技術スタック】</h4><p style="margin-bottom: 2px; font-size: 10px;">Nuxt.js/Vue/Netlify</p><h4>【概要】</h4><p style="margin-bottom: 2px; font-size: 10px;">これ迄関わってきた複数のプロジェクトの棚卸し、Nuxtのキャッチアップもかねて作成</p><p style="margin-bottom: 2px; font-size: 10px;">修士在学中より述べ8プロジェクトに参画しアプリ開発~コンサルティング案件を経験</p>'
+          subdescription: 'Coming Soon'
         },
         { title: '#8 Infra改善支援',
-          imageurl: 'images/wc.png',
+          imageurl: 'images/workcanvas_ogp.jpg',
           description: '期間:2019/10~2020/05\n[Infra業務] CICD自動化・Dockerize・監視基盤構築\nアプリケーションの自動デプロイ・監視基盤の構築を実施',
           link: '',
           subdescription: 'Coming Soon'
