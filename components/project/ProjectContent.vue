@@ -71,8 +71,8 @@ export default {
         { title: '#2 CMS開発支援1(電力業界)',
           imageurl: 'images/power.jpg',
           description: '期間:2016/05~2016/10\n[App開発] 電力小売事業者CMS開発\n電力自由化に伴う、電気料金計算自動化システムの作成(オフショア開発)',
-          link: '<h4>新電力事業者様</h4><p style="margin-bottom: 2px; font-size: 10px;">手動で行っていた電気料金計算の業務フローを一部自動化する案件を担当。</p>',
-          subdescription: 'Coming Soon'
+          link: '',
+          subdescription: '<h4>新電力事業者様</h4><p style="margin-bottom: 2px; font-size: 10px;">手動で行っていた電気料金計算の業務フローを一部自動化する案件を担当。</p>'
         },
         { title: '#1 リラクゼーションサイト開発',
           imageurl: 'images/este.jpeg',
