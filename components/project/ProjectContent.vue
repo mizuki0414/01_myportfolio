@@ -30,13 +30,13 @@ export default {
           imageurl: 'images/og.png',
           description: '期間:2020/04~2020/11\n[Protyping] フルタイム総合LABコース\nプロダクトデモ、アントレプレナーシップについて学習',
           link: '',
-          subdescription: 'Coming Soon'
+          subdescription: '<h4>プロトタイピング</h4><h4>【実績・業務成果】</h4><h5>■成果</h5><p style="margin-bottom: 2px; font-size: 10px;">第一回東京ハッカソン:優勝</p><p style="margin-bottom: 2px; font-size: 10px;">第二回東京・福岡合同ハッカソン:準優勝</p><p style="margin-bottom: 2px; font-size: 10px;">第三回東京ハッカソン:準優勝</p><p style="margin-bottom: 2px; font-size: 10px;">第四回東京ハッカソン:優勝</p>'
         },
         { title: '#8 Infra改善支援',
           imageurl: 'images/workcanvas_ogp.jpg',
           description: '期間:2019/10~2020/05\n[Infra業務] CICD自動化・Dockerize・監視基盤構築\nアプリケーションの自動デプロイ・監視基盤の構築を実施',
           link: '',
-          subdescription: 'Coming Soon'
+          subdescription: '<h4>美容業界向け人材紹介事業者様、CICD自動化・Dockerize・監視基盤構築</h4><h4>【実績・業務成果】</h4><h5>■成果</h5><p style="margin-bottom: 2px; font-size: 10px;">ECS/ECR-GitlabCIを用いたデプロイ自動化により</p><p style="margin-bottom: 2px; font-size: 10px;">サービスダウンタイム0,デプロイ工数0を実施致しました。</p>'
         },
         { title: '#7 Security対策支援',
           imageurl: 'images/wc.png',
@@ -60,7 +60,7 @@ export default {
           imageurl: 'images/miningtokyo.jpg',
           description: '期間:2018/08~2018/11\n[App開発] 製品販促サイト開発\nWordPressを用いて、Miningマシンの販促サイトを作成',
           link: '',
-          subdescription: 'Coming Soon'
+          subdescription: '<h4>Miningマシン販売代理店様</h4><p style="margin-bottom: 2px; font-size: 10px;">DEMOサイトの作成をWP上で行わせて頂きました。</p>'
         },
         { title: '#3 CMS開発支援2(電力業界)',
           imageurl: 'images/jx.jpg',
@@ -71,14 +71,14 @@ export default {
         { title: '#2 CMS開発支援1(電力業界)',
           imageurl: 'images/power.jpg',
           description: '期間:2016/05~2016/10\n[App開発] 電力小売事業者CMS開発\n電力自由化に伴う、電気料金計算自動化システムの作成(オフショア開発)',
-          link: '',
+          link: '<h4>新電力事業者様</h4><p style="margin-bottom: 2px; font-size: 10px;">手動で行っていた電気料金計算の業務フローを一部自動化する案件を担当。</p>',
           subdescription: 'Coming Soon'
         },
         { title: '#1 リラクゼーションサイト開発',
           imageurl: 'images/este.jpeg',
           description: '期間:2016/01~2016/04\n[App開発] UI変更・SEO対策\nRubyonRailsを用いてリラクゼーションサイトデザイン改修を実施、SEO対策も考慮しレイアウト変更',
           link: '',
-          subdescription: 'Coming Soon'
+          subdescription: '<h4>リラクゼーションサロン様</h4><p style="margin-bottom: 2px; font-size: 10px;">1ジャンルの展開を7ジャンルへの展開へ行いました。</p>'
         }
       ]
     }
