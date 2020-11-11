@@ -55,30 +55,6 @@ export default {
           description: '期間:2018/05~2019/4\n[Infra業務] オンプレ-Cloud環境移行\n業務システムのオンプレ環境からAWSへの移行・構築支援を実施',
           link: '',
           subdescription: '<h4>国内大手素材メーカ様、全業務システム基盤移行支援</h4><h4>【使用した技術スタック】</h4><p style="margin-bottom: 2px; font-size: 10px;">WinServer2016/EC2/SG/IAM/SQS/SAP ERP6.0/SAP BW7.5/Zabbix/JP1/HULFT</p><h4>【職務概要】</h4><p style="margin-bottom: 2px; font-size: 10px;">AWS環境のサーバ/ネットワーク環境構築、SAPアプリケーションのバージョ</p><p style="margin-bottom: 2px; font-size: 10px;">ンアップから運用作業の自動化をインフラメンバとして実施した。</p><h4>【実績・業務成果】</h4><h5>■成果</h5><p style="margin-bottom: 2px; font-size: 10px;">オンプレミス環境からAWSへの移行によって運用コスト削減。SAPのアップ</p><p style="margin-bottom: 2px; font-size: 10px;">グレードと合わせて、処理性能の向上を実現した。</p><h5>■プロジェクトを通しての課題</h5><p style="margin-bottom: 2px; font-size: 10px;">AWSへの移行に伴い、ジョブ・ミドルウェアとの連携部分が想定していた</p><p style="margin-bottom: 2px; font-size: 10px;">以上に改修範囲が広く、一時的に運用作業が増大し、プロジェクトコストが増大した点。</p><h5>■解決方法</h5><p style="margin-bottom: 2px; font-size: 10px;">PowerShellスクリプトを用いて運用作業を自動化した。また、オフショア</p><p style="margin-bottom: 2px; font-size: 10px;">開発メンバを育成し、定常作業を移管した。</p><h5>■解決方法を採用した結果</h5><p style="margin-bottom: 2px; font-size: 10px;">自動化作業によりシステム基盤移行後の運用工数を今までより、月50H程</p><p style="margin-bottom: 2px; font-size: 10px;">削減した。また作業単価の低いオフショアメンバへの業務移管により、安</p><p style="margin-bottom: 2px; font-size: 10px;">価なコストで定常業務のPDCAを回せるように実現した。</p>'
-        },
-        { title: '#4 Miningマシン販促支援',
-          imageurl: 'images/miningtokyo.jpg',
-          description: '期間:2018/08~2018/11\n[App開発] 製品販促サイト開発\nWordPressを用いて、Miningマシンの販促サイトを作成',
-          link: '',
-          subdescription: 'Coming Soon'
-        },
-        { title: '#3 CMS開発支援2(電力業界)',
-          imageurl: 'images/jx.jpg',
-          description: '期間:2017/05~2018/03\n[App開発] 電力小売事業者CMS開発\n電力自由化に伴う、顧客契約情報の編集作業自動化実施',
-          link: '',
-          subdescription: '<h4>国内大手電力会社様、小売り事業者向け顧客管理システム開発支援</h4><h4>【使用した技術スタック】</h4><p style="margin-bottom: 2px; font-size: 10px;">WinServer2012/SAP ERP6.0/JP1/HULFT/PowerShell/Asteria</p><h4>【職務概要】</h4><p style="margin-bottom: 2px; font-size: 10px;">システム運用・保守業務担当の後新規機能開発へ、顧客契約情報の編集作業</p><p style="margin-bottom: 2px; font-size: 10px;">の自動化案件を担当。要件定義、技術調査、影響分析並びに開発を実施した。</p><h4>【実績・業務成果】</h4><h5>■成果</h5><p style="margin-bottom: 2px; font-size: 10px;">手作業による顧客情報修正業務を自動化したことにより、</p><p style="margin-bottom: 2px; font-size: 10px;">クライアントサイドの運用工数を削減</p><h5>■プロジェクトを通しての課題</h5><p style="margin-bottom: 2px; font-size: 10px;">外部連携システム（電力広域機関）の仕様が短期間でアップデートされる</p><p style="margin-bottom: 2px; font-size: 10px;">為、追加改修のサイクルが短く開発工数が大きかった点。</p><h5>■解決方法</h5><p style="margin-bottom: 2px; font-size: 10px;">改修が最小減で抑えられるように、モジュール化をした上での実装。</p><p style="margin-bottom: 2px; font-size: 10px;">テストの自動化を行い、繰り返し発生するテスト作業の工数を削減した。</p><h5>■解決方法を採用した結果</h5>\<p style="margin-bottom: 2px; font-size: 10px;">仕様変更による改修工数、障害発生時の調査工数が削減され、</p><p style="margin-bottom: 2px; font-size: 10px;">クイックな開発~デプロイの実現を行うことが出来、クライアントの運用工数削減に</p><p style="margin-bottom: 2px; font-size: 10px;">直結することが出来た。</p>'
-        },
-        { title: '#2 CMS開発支援1(電力業界)',
-          imageurl: 'images/power.jpg',
-          description: '期間:2016/05~2016/10\n[App開発] 電力小売事業者CMS開発\n電力自由化に伴う、電気料金計算自動化システムの作成(オフショア開発)',
-          link: '',
-          subdescription: 'Coming Soon'
-        },
-        { title: '#1 リラクゼーションサイト開発',
-          imageurl: 'images/este.jpeg',
-          description: '期間:2016/01~2016/04\n[App開発] UI変更・SEO対策\nRubyonRailsを用いてリラクゼーションサイトデザイン改修を実施、SEO対策も考慮しレイアウト変更',
-          link: '',
-          subdescription: 'Coming Soon'
         }
       ]
     }
